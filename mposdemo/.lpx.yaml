@@ -1,0 +1,17 @@
+customer: mcc
+vertical: mpos
+
+services:
+- id: demo
+  type: dockerfile
+  check: true
+  resources:
+    requests:
+      memory: "200Mi"
+      cpu: "200m"
+    limits:
+      memory: "500Mi"
+      cpu: "1000m"
+       
+watchers: 
+  - adrian.moncea@metrosystems.net
